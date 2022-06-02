@@ -27,13 +27,6 @@ namespace PandoLogicTests
             controller = new JobViewsController(new JobViewsMetaDataService(new JobViewsContext(dbContextOptions), new NullLogger<JobViewsMetaDataService>()));
         }
 
-        [OneTimeTearDown]
-        public void TearDown()
-
-        {
-            //Driver.Close();
-        }
-
         private void SeedDb()
         {
             using (var context = new JobViewsContext(dbContextOptions))

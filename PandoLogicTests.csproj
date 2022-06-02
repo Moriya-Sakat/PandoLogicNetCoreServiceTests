@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PandoLogic\PandoLogic.csproj" />
+    <ProjectReference Include="..\PandoLogicNetCoreService\PandoLogic.csproj" />
   </ItemGroup>
 
 </Project>
